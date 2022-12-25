@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>ABOUT PAGE</title>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">myporto</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about/index.html">about</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  others
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="/contact/index.html">contact</a></li>
+                  <li><a class="dropdown-item" href="/gallery/index.html">gallery</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="/sosmed/index.html">sosmed</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+      <!--frist layout start-->
+  <div class="container-fluid bg-dark text-light" style="height:100vh">
+    <div class="row text-center align-items-center">
+      <div class="col-8 text-center ">
+        my about
+      </div>
+      <div class="col-4 ">
+       <img src="data:image/png;base64,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"  alt="my image" style="width:100%"/>
+      </div>
+     </div>
+    </div>
+  <!--end layout-->
+     
+</body>
+</html>
